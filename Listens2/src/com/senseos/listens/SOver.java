@@ -8,8 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class SOver extends ListActivity{
-	public String menu[] = {"Privacy", "Onderzoek", "Sense OS", "Contact"};
-	public String classes[] = {"SPprivacy","SOnderzoek", "SSense", "SContact"};
+	public String menu[] = {"Privacy", "Onderzoek", "Sense OS"};
+	public String classes[] = {"SPprivacy","SOnderzoek", "SSense"};
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);

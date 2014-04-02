@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 public class SStartMenu extends ListActivity{
 	public String menu[] = {"Over", "Contact"};
-	public String classes[] = {"SOver", "Contact" };
+	public String classes[] = {"SOver", "SContact" };
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
