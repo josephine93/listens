@@ -24,7 +24,6 @@ public class SStartMenu extends ListActivity{
 			e.printStackTrace();
 		}
 	}
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
