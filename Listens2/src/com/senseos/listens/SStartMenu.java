@@ -15,6 +15,7 @@ public class SStartMenu extends ListActivity{
 		super.onListItemClick(l, v, position, id);
 		String local = "com.senseos.listens." + classes[position];
 		Class geplandClass;
+		
 		try {
 			geplandClass = Class.forName(local);
 		
@@ -30,7 +31,7 @@ public class SStartMenu extends ListActivity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		Intent intent  = new Intent();
-		
+		Alarms alarmen = new Alarms(true);
 		setListAdapter(new ArrayAdapter<String>(SStartMenu.this, android.R.layout.simple_list_item_1, menu));
 	}
 
