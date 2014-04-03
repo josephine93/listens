@@ -17,7 +17,6 @@ public class SOver extends ListActivity{
 		Class geplandClass;
 		try {
 			geplandClass = Class.forName(local);
-		
 			Intent geplandIntent = new Intent(SOver.this, geplandClass);
 			startActivity(geplandIntent);
 		} catch (ClassNotFoundException e) {

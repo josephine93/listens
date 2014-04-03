@@ -35,7 +35,6 @@ public class Alarm extends Activity {
 	    day = cal.get(Calendar.DAY_OF_WEEK);
 	    hour = cal.get(Calendar.HOUR_OF_DAY);
 	    minute = cal.get(Calendar.MINUTE);
-
 	    Intent i = new Intent(AlarmClock.ACTION_SET_ALARM);
 	    i.putExtra(AlarmClock.EXTRA_HOUR, hour + uur);
 	    i.putExtra(AlarmClock.EXTRA_MINUTES, minute + minuut);

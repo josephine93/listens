@@ -5,7 +5,6 @@ public class Opname {
 	public Opname (int opnameMinuten) {
 		minuten = opnameMinuten;
 		neemOp(minuten);
-		
 	}
 	public void neemOp(int minuten) {
 		

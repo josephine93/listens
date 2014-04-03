@@ -18,7 +18,6 @@ public class SStartMenu extends ListActivity{
 		
 		try {
 			geplandClass = Class.forName(local);
-		
 			Intent geplandIntent = new Intent(SStartMenu.this, geplandClass);
 			startActivity(geplandIntent);
 		} catch (ClassNotFoundException e) {

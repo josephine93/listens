@@ -7,6 +7,7 @@ public class Alarms {
 	public boolean weekend;
 	public Alarms (boolean weekend){
 		this.weekend = weekend;
+		
 		//Tijden worden ingesteld
 		if (weekend) {
 			ochtendklok = new Alarm (10, 14);
